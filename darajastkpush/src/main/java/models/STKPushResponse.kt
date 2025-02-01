@@ -1,4 +1,4 @@
-package com.example.darajastkpush.models
+package models
 
 data class STKPushResponse(
     val MerchantRequestID: String,

@@ -1,6 +1,6 @@
-package com.example.darajastkpush.network
+package network
 
-import com.example.darajastkpush.models.AccessTokenResponse
+import models.AccessTokenResponse
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.GET

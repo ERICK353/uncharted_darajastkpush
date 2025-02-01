@@ -1,4 +1,4 @@
-package com.example.darajastkpush.network
+package network
 
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

@@ -4,9 +4,8 @@ import android.content.Context
 import android.util.Base64
 import com.example.darajastkpush.models.STKPushRequest
 import com.example.darajastkpush.models.STKPushResponse
-
-
 import com.example.darajastkpush.network.RetrofitClient
+
 
 class DarajaSTK(
     private val context: Context,

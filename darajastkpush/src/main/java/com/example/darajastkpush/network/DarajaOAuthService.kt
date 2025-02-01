@@ -1,6 +1,6 @@
-package network
+package com.example.darajastkpush.network
 
-import models.OAuthTokenResponse
+import com.example.darajastkpush.models.AccessTokenResponse
 import retrofit2.Call
 import retrofit2.http.Field
 import retrofit2.http.FormUrlEncoded
@@ -13,5 +13,5 @@ interface DarajaOAuthService {
     fun getAccessToken(
         @Header("Authorization") authHeader: String,
         @Field("grant_type") grantType: String = "client_credentials"
-    ): Call<OAuthTokenResponse>
+    ): Call<AccessTokenResponse>
 }

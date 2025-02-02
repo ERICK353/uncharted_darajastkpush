@@ -97,6 +97,7 @@ fun generateTimestamp(): String {
     val dateFormat = SimpleDateFormat("yyyyMMddHHmmss", Locale.getDefault())
     return dateFormat.format(Date())
 }
+
    ```
 
 ## Example Usage

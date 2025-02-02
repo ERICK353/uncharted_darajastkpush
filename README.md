@@ -62,7 +62,7 @@ The DarajaSTK Push Library is an Android library that simplifies integration wit
             amount = "1",
             partyA = "PHONENUMBER(Format:254{Phonenumber})e.g254708374149",
             partyB = "174379", // REPLACE WITH YOUR OWN PAYBILL/TILLNUMBER
-            phoneNumber = "PHONENUMBER(Format:254{Phonenumber})e.g2547708374149",
+            phoneNumber = "PHONENUMBER(Format:254{Phonenumber})e.g254708374149",
             callBackURL = "YOUR_CALLBACK_URL",
             accountReference = "Test123",
             transactionDesc = "Payment"
